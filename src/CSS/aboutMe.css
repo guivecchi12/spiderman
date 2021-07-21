@@ -1,0 +1,7 @@
+.aboutPage p{
+    width: auto;
+    height: auto;
+    border: 5px solid black;
+    color: blue;
+    font-size: 100px;
+}
