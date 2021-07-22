@@ -62,7 +62,7 @@
     }
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:800px){
     .myContent img{
         display: none;
     }
@@ -70,8 +70,14 @@
         width: 90%;
         margin:0;
     }
+    .content:first-child{
+        margin-top: 60px;
+    }
     .content:nth-child(2){
         margin:0;
+    }
+    .comics .content{
+        margin-top: 0;
     }
 }
 
@@ -79,5 +85,11 @@
     .myContent{
         height: 100%;
         padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .myContent{
+        padding: 20px 0;
     }
 }
