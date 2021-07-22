@@ -1,0 +1,83 @@
+.myContent{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(209, 203, 193);
+}
+.content{
+    width: 40%;
+    border: 2px solid white;
+    padding: 30px 10px;
+    margin-right: 3%;
+}
+.content:nth-child(2){
+    margin-right: 0;
+    margin-left: 3%;
+}
+
+.content a{
+    font-size: 1.2em;
+}
+
+.content p{
+    padding-top: 10px;
+}
+.spiderCard{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.myContent img{
+    width: 20%;
+}
+
+.movies img{
+    margin-top:60px;
+    width: 15%;
+
+}
+
+@media only screen and (max-width:1355px){
+    .myContent img{
+        width: 40%;
+    }
+    .movies img{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:1300px){
+    .content{
+        width:60%;
+    }
+    .myContent img{
+        width: 30%;
+    }
+    .movies img{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .myContent img{
+        display: none;
+    }
+    .content{
+        width: 90%;
+        margin:0;
+    }
+    .content:nth-child(2){
+        margin:0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .myContent{
+        height: 100%;
+        padding-top: 80px;
+    }
+}

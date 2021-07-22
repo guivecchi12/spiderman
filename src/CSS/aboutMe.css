@@ -11,15 +11,12 @@
     font-size: 1.5em;
 }
 
-.rounded{
-    width:50%;
+.aboutPage .rounded{
+    height:80%;
 }
 
-@media only screen and (max-width: 1587px){
-    .aboutPage{
-        height: 100vh;
-    }
-    .rounded{
+@media only screen and (max-width: 1825px){
+    .aboutPage .rounded{
         display:none;
     }
     .aboutPage p{
@@ -27,16 +24,14 @@
     }
 }
 
-@media only screen and (max-width:824px){
+@media only screen and (max-width:955px){
     .aboutPage{
-        height:100vh;
         padding-top: 80px;
     }
 }
 
-@media only screen and (max-width:775px){
+@media only screen and (max-width:874px){
     .aboutPage{
         height:100%;
-        padding-top: 80px;
     }
 }

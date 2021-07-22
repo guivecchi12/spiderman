@@ -5,10 +5,10 @@ const Home = () => {
         <div className="homeComponent">
             <div className="quote">
                 <p>
-                    “It's the questions we can't answer that teach us the most. They teach us how to think. If you give a man an answer, all he gains is a little fact. But give him a question and he'll look for his own answers.”
+                    "Anyone can win a fight when the odds are easy! It’s when the going’s tough when there seems to be no chance – that’s when it counts.”
                     <br/>
                     <span className="author">
-                        ― Patrick Rothfuss
+                        ― Spiderman
                     </span>
                 </p>
             </div>

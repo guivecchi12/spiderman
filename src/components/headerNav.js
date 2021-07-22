@@ -6,13 +6,13 @@ const header = () =>{
     return (
         <Navbar bg="dark" variant="dark" expand="lg" className='header'>
             <Container>
-                <Navbar.Brand href="/"><span className='title'>Kvothe</span></Navbar.Brand>
+                <Navbar.Brand href="/"><span className='title'>Peter Parker</span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/about">Me</Nav.Link>
-                    <Nav.Link href="/music">My Music</Nav.Link>
+                    <Nav.Link href="/music">My Content</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

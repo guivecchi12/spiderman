@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderNav from './components/headerNav'
 import Home from './components/home';
 import AboutMe from './components/aboutMe';
-import MyMusic from './components/myMusic';
+import MyContent from './components/myContent';
 import { 
   BrowserRouter as Router, 
   Switch,
@@ -19,7 +19,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path='/about' component={AboutMe}/>
-          <Route path='/music' component={MyMusic}/>
+          <Route path='/music' component={MyContent}/>
         </Switch>
       </div>
     </Router>
