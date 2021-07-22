@@ -1,4 +1,5 @@
 import React from 'react';
+import HeaderNav from './components/headerNav'
 import Home from './components/home';
 import AboutMe from './components/aboutMe';
 import MyMusic from './components/myMusic';
@@ -14,6 +15,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+      <HeaderNav/>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path='/about' component={AboutMe}/>

@@ -1,7 +1,42 @@
+.aboutPage{
+    height: 100vh;
+    background-color: rgb(209, 203, 193);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .aboutPage p{
-    width: auto;
-    height: auto;
-    border: 5px solid black;
-    color: blue;
-    font-size: 100px;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.rounded{
+    width:50%;
+}
+
+@media only screen and (max-width: 1587px){
+    .aboutPage{
+        height: 100vh;
+    }
+    .rounded{
+        display:none;
+    }
+    .aboutPage p{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:824px){
+    .aboutPage{
+        height:100vh;
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width:775px){
+    .aboutPage{
+        height:100%;
+        padding-top: 80px;
+    }
 }
